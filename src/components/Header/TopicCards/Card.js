@@ -37,7 +37,11 @@ function MediaCard(props) {
     <div>
       <Card className={classes.card}>
         <CardActionArea>
-          <CardMedia className={classes.media} title="Contemplative Reptile" />
+          <CardMedia
+            className={classes.media}
+            title="Contemplative Reptile"
+            src="..."
+          />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
               Solange?!
@@ -59,7 +63,11 @@ function MediaCard(props) {
       </Card>
       <Card className={classes.card}>
         <CardActionArea>
-          <CardMedia className={classes.media} title="Contemplative Reptile" />
+          <CardMedia
+            className={classes.media}
+            title="Contemplative Reptile"
+            src="..."
+          />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
               SteamWorks
@@ -81,7 +89,11 @@ function MediaCard(props) {
       </Card>
       <Card className={classes.card}>
         <CardActionArea>
-          <CardMedia className={classes.media} title="Contemplative Reptile" />
+          <CardMedia
+            className={classes.media}
+            title="Contemplative Reptile"
+            src="..."
+          />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
               Slaytina

@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import MediaCard from "./TopicCards/Card";
-import Slider from "./Slider/Slider";
+import SliderCard from "./Slider/Slider";
 
 class Header extends Component {
   render() {
     return (
       <div>
-        <Slider />
+        <SliderCard />
         <MediaCard />
       </div>
     );
