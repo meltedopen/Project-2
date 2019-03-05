@@ -3,6 +3,7 @@ import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import Header from "./components/Header/Header";
 import Location from "./components/Locale/LocationCard/Location";
+import Locale from "./components/Locale/Locale";
 
 class App extends Component {
   render() {
@@ -10,7 +11,7 @@ class App extends Component {
       <div className="App">
         <NavBar />
         <Header />
-        <Location />
+        <Locale />
       </div>
     );
   }
