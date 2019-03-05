@@ -1,12 +1,15 @@
+import styles from "../Header/Header.css";
 import React, { Component } from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { default as Carousel, default as Slider } from "./Slider/Slider";
 import MediaCard from "./TopicCards/Card";
-import SliderCard from "./Slider/Slider";
 
 class Header extends Component {
   render() {
     return (
       <div>
-        <SliderCard />
+        <Carousel className={styles.Carousel} />
+        {/* <Slider /> */}
         <hr />
         <MediaCard />
       </div>

@@ -1,0 +1,11 @@
+.carousel .slider-wrapper.axis-horizontal .slider .slide {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-flow: column;
+  flex-flow: column;
+  height: 50vh;
+}
+
+.carousel .thumbs {
+  display: none;
+}
