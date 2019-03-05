@@ -1,14 +1,14 @@
-import React, { Component } from "react";
-import Modal from "@material-ui/core/Modal";
+import React from "react";
+import AppBar from "@material-ui/core/AppBar";
+import Toolbar from "@material-ui/core/Toolbar";
 
-class NavBar extends Component {
-  render() {
-    return (
-      <nav>
-        <Modal />
-      </nav>
-    );
-  }
-}
-
+const NavBar = () => {
+  return (
+    <div>
+      <AppBar position="static">
+        <Toolbar>Gay-Farer</Toolbar>
+      </AppBar>
+    </div>
+  );
+};
 export default NavBar;
