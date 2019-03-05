@@ -7,6 +7,7 @@ class Header extends Component {
     return (
       <div>
         <SliderCard />
+        <hr />
         <MediaCard />
       </div>
     );
